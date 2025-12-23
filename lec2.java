@@ -25,7 +25,7 @@
 //         // System.out.println(answer);
 //         Scanner one =new Scanner(System.in);
 //         String name =one.next();
-//         System.out.println(name);
+
 
 
 
