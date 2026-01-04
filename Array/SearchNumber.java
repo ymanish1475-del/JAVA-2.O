@@ -1,0 +1,41 @@
+package Array;
+
+import java.util.Scanner;
+
+public class SearchNumber {
+
+      public static void main(String args[]){
+   
+    Scanner sc = new Scanner(System.in);
+
+    int size =sc.nextInt();
+
+    int number []= new int [size];
+    //  input 
+    for(int i=0; i<size;i++){
+        number[i] = sc.nextInt();
+    }
+    //  output 
+
+    int x= sc.nextInt();
+
+for (int i=0; i<number.length; i++){
+    if(number[i]==x){
+        System.out.println("x found at :"+i);
+    }else{
+        System.out.println("number nahi mila");
+    }
+}
+    
+
+    // for(int i=0; i<size; i++){
+    //     System.out.println(number[i]);
+    // }
+
+
+       
+
+
+}
+    
+}
