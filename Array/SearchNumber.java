@@ -22,9 +22,10 @@ public class SearchNumber {
 for (int i=0; i<number.length; i++){
     if(number[i]==x){
         System.out.println("x found at :"+i);
-    }else{
-        System.out.println("number nahi mila");
     }
+    // else{
+    //     System.out.println("number nahi mila");
+    // }
 }
     
 

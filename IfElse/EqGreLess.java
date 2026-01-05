@@ -15,11 +15,9 @@ public class EqGreLess {
 
         if(x==y){
             System.out.println("ye  number  equal  hea ");
-        }if (x>y){
+        }else if (x>y){
             System.out.println(" x bada hea ");
-        
-
-         }if(y>x){
+         }else if(y>x){
             System.out.println("y bada hea");
          }
         //  else{
